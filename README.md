@@ -15,8 +15,8 @@ We'll create a model that predicts crop yeilds for apples and oranges (target va
 In a linear regression model, each target variable is estimated to be a weighted sum of the input variables, offset by some constant, known as a bias
 
 ## Versions:
-**LR with Pytorch** - shows usage of basic pytorch for Linear Regression problems <br/>
-**LR with Pytorch built-ins** - shows usage of nn module from pytorch for solving the same
+**LR using Pytorch** - shows usage of basic pytorch for Linear Regression problems <br/>
+**LR using Pytorch built-ins** - shows usage of nn module from pytorch for solving the same
 
 ## Links:
 https://www.kaggle.com/aakashns/pytorch-basics-linear-regression-from-scratch?scriptVersionId=7073576
