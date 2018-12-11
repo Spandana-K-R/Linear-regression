@@ -17,8 +17,8 @@ inputs = torch.from_numpy(inputs)
 targets = torch.from_numpy(targets)
 learning_rate = 1e-5
 
-weights = torch.randn(2,3, require_grad=True)
-bias = torch.randn(2, require_grad=True)
+weights = torch.randn(2,3, requires_grad=True)
+bias = torch.randn(2, requires_grad=True)
 
 def model(x):
   return x.mm(w.t()) + b
@@ -40,3 +40,4 @@ for e in range(1500):
     
 preds = model(inputs)
 print("Predicted values are {}".format(preds))
+print("Target values were {}".format(targets))
