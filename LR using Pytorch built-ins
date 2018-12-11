@@ -1,0 +1,16 @@
+import torch.nn as nn
+
+# Input (temp, rainfall, humidity)
+inputs = np.array([[73, 67, 43], 
+                   [91, 88, 64], 
+                   [87, 134, 58], 
+                   [102, 43, 37], 
+                   [69, 96, 70]], dtype='float32')
+                   
+# Targets (apples, oranges)
+targets = np.array([[56, 70], 
+                    [81, 101], 
+                    [119, 133], 
+                    [22, 37], 
+                    [103, 119]], dtype='float32')
+                    
